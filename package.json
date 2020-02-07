@@ -2,7 +2,7 @@
   "name": "Web_Server",
   "version": "1.0.0",
   "description": "",
-  "main": "WebApp.js",
+  "main": "index.js",
   "scripts": {
     "start": "node src/WebApp.js"
   },
