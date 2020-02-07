@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        {{>header}}
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" href="/images/weather.jpg">
+    </head>
+    <body>
+        <link rel="stylesheet" href="/css/styles.css">
+        <div>
+            <!--link rel="stylesheet" href="/css/styles.css">
+            <!--{{header}} , {{>footer}} is partial html inherits from header.hbs file-->
+            <link rel="stylesheet" href="/css/styles.css">
+            <h5> Weather App bring you most accurate weather information across the world
+            </h5>
+            <p>
+                {{ WeatherData.Place }} 
+                <br>
+                Longitude: {{ WeatherData.Longitude }}, Latitude: {{WeatherData.Latitude}}
+                <br>
+                <b>Weather Forecast</b>
+                <br>
+                Current temperature is {{ WeatherData.Temperature }} Celsius and Humidity is {{WeatherData.Humidity}}%
+                <br>
+                <b>Pollution Index</b><br>
+                Aquis: {{WeatherData.Aqius}}
+                Aquin: {{WeatherData.Aqicn}}
+                <br>
+                <b>Levels of Health Concern</b>
+                <br>
+                {{ WeatherData.PollutionCategory }}
+            </p>
+        </div>
+        {{>footer}}
+    </body>
+</html>

@@ -1,0 +1,49 @@
+header {
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 250px;
+    margin: 5px;
+    padding: 10px;
+    background-position: center top;
+}
+
+body {
+    color: rgb(45, 54, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 5px;
+    padding: 10px;
+    background-position: center;
+    text-align: center;
+}
+footer {
+    color: Darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 16px;
+    max-width: 250px;
+    background-position: center bottom;
+}
+h1{
+    color: rgb(12, 60, 90);
+    margin-right: 16px;
+    text-align: center;
+}
+h5{
+    color: rgb(70, 23, 5);
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    border: 1px solid darkgray;
+    background: lightgray;
+    color: white;
+    padding: 8px;
+}
+input {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+img {
+    text-align: start;
+    width: 100px;
+}

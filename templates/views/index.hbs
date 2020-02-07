@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" href="/images/weather.jpg">
+        {{>header}}
+        <img src="/images/weather.jpg">
+    </head>
+    <body>
+        <div>
+            <link rel="stylesheet" href="/css/styles.css">
+            <!--{{header}} , {{>footer}} is partial html inherits from header.hbs file-->
+            <h5> Weather App bring you most accurate weather information across the world
+            </h5>
+            <form>
+                <input placeholder="location">
+                <button>Search</button>
+            </form> 
+            <p id="message-1">
+                <font color="red"></font>
+            </p>
+            <p id="message-2"></p>
+            <p id="message-3"></p>
+            <p id="message-4"></p>
+            <p id="message-5"></p>
+            <p id="message-6"></p>
+        </div>
+        {{>footer}}
+        <script src="/scripts/fetch.js"></script>
+    </body>
+</html>
