@@ -10,6 +10,7 @@ const render_object = {
 }
 
 const webapp = express();
+const port = process.env.PORT || 3000
 
 // set access paths for express configuration
 const publicDirectory = path.join(__dirname, '../public');
@@ -63,6 +64,6 @@ webapp.get('/location/*',(req, res) => {
     res.send('404 Page not found')
 })
 
-webapp.listen(3000, () => {
-    console.log('Server is up @port 3000');
+webapp.listen(port, () => {
+    console.log('Server is up @port ' + port);
 })

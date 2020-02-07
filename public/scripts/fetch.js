@@ -20,7 +20,7 @@ weatherform.addEventListener('submit', (e) => {
     renderTemperature.textContent = ' '
     renderHumidity.textContent = ' '
     renderAQI.textContent = ' '
-    fetch('http://localhost:3000/location?address=' + location).then((response) => {
+    fetch('/location?address=' + location).then((response) => {
         response.json().then((data) => {
             console.log(data.error)
             if (data.error) {
