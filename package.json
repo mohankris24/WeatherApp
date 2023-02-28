@@ -12,7 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
-    "hbs": "^4.1.0",
+    "hbs": "^4.2.0",
     "json-merger": "^1.1.2",
     "merge-objects": "^1.0.5",
     "request": "^2.88.0"
